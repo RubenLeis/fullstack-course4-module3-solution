@@ -9,13 +9,11 @@
 body {
   font-size: 16px;
   color: black;
-  /*background-color: darkgrey;*/
   font-family: sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  /*background-color: black;*/
   border-radius: 0;
   border: 0;
 }
@@ -28,7 +26,6 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;  
-  /*color: white;*/
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -52,10 +49,20 @@ body {
 /** END HEADER **/
 /** MAIN **/
 
-section {
-  margin: 10px  10px  10px  10px;
+.content-section {
+  background-color: gainsboro;
+  margin: 50px 10px 10px 80px;
   padding: 40px 20px 20px 20px;
-  background-color: grey;
+}
+
+.row {
+  margin: 50px 20px 20px 20px;
+}
+
+.row > div {
+  background-color: gainsboro;
+  background-color: gray;
+  padding: 40px 20px 20px 20px;
 }
 
 /** END MAIN **/
